@@ -1,0 +1,41 @@
+Number of literals: 21
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+Not looking for earlier-is-better time-dependent rewards: no goal limits
+Pruning (ordinary_lights_highprice_occupied_highnaturallight) - temporal contradiction
+Pruning (ordinary_lights_highprice_occupied_lownaturallight) - temporal contradiction
+Pruning (ordinary_lights_highprice_notoccupied_highnaturallight) - temporal contradiction
+Pruning (ordinary_lights_highprice_notoccupied_lownaturallight) - temporal contradiction
+Pruning (ordinary_lights_nominalprice_occupied_highnaturallight) - temporal contradiction
+Pruning (ordinary_lights_nominalprice_occupied_lownaturallight) - temporal contradiction
+Pruning (ordinary_lights_nominalprice_notoccupied_highnaturallight) - temporal contradiction
+Pruning (ordinary_lights_nominalprice_notoccupied_lownaturallight) - temporal contradiction
+Pruning (highprice_uncontrollable_loads_controllable_independent_loads) - temporal contradiction
+Pruning (nominalprice_uncontrollable_loads_controllable_independent_loads) - temporal contradiction
+Pruning (hvac_highprice_occupied_intemprange) - temporal contradiction
+Pruning (hvac_highprice_occupied_notintemprange) - temporal contradiction
+Pruning (hvac_highprice_notoccupied_intemprange) - temporal contradiction
+Pruning (hvac_highprice_notoccupied_notintemprange) - temporal contradiction
+Pruning (hvac_nominalprice_occupied_intemprange) - temporal contradiction
+Pruning (hvac_nominalprice_occupied_notintemprange) - temporal contradiction
+Pruning (hvac_nominalprice_notoccupied_intemprange) - temporal contradiction
+Pruning (hvac_nominalprice_notoccupied_notintemprange) - temporal contradiction
+Pruning (battery_discharge_nominalprice) - temporal contradiction
+None of the ground temporal actions in this problem have been recognised as compression-safe
+Initial heuristic = 14.000
+b (13.000 | 0.100)b (12.000 | 24.001)b (8.000 | 24.001)b (7.000 | 24.001)b (6.000 | 24.001)b (5.000 | 24.001)b (4.000 | 24.001)b (3.000 | 24.001)b (2.000 | 24.001);;;; Solution Found
+; States evaluated: 7817
+; Cost: 24.002
+; Time 5.82
+13.901: (hours_of_the_day)  [10.101]
+13.902: (battery_charge_low_price)  [2.000]
+14.001: (ordinary_lights_lowprice_occupied_highnaturallight)  [2.000]
+14.001: (hvac_lowprice_occupied_intemprange)  [2.000]
+14.001: (lowprice_uncontrollable_loads_controllable_independent_loads)  [2.000]
+15.903: (battery_charge_low_price)  [2.000]
+16.002: (hvac_lowprice_occupied_intemprange)  [2.000]
+16.002: (lowprice_uncontrollable_loads_controllable_independent_loads)  [2.000]
+17.001: (ordinary_lights_lowprice_occupied_lownaturallight)  [2.000]
+17.904: (battery_charge_low_price)  [2.000]
+20.001: (out_of_operating_hours_all_off_lightsreduced)  [4.000]

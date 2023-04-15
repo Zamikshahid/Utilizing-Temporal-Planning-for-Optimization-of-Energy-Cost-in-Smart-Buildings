@@ -1,0 +1,32 @@
+Number of literals: 21
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+Not looking for earlier-is-better time-dependent rewards: no goal limits
+None of the ground temporal actions in this problem have been recognised as compression-safe
+Initial heuristic = 34.000
+b (33.000 | 14.001)b (29.000 | 14.001)b (25.000 | 14.001)b (24.000 | 14.001)b (22.000 | 14.001)b (17.000 | 14.001)b (16.000 | 14.001)b (14.000 | 14.001)b (12.000 | 14.001)b (10.000 | 14.001)
+Resorting to best-first search
+b (33.000 | 14.001)b (29.000 | 14.001)b (25.000 | 14.001)b (24.000 | 14.001)b (22.000 | 14.001)b (17.000 | 14.001)b (16.000 | 14.001)b (14.000 | 14.001)b (12.000 | 14.001)b (10.000 | 14.001)b (9.000 | 14.001)b (8.000 | 14.001)b (7.000 | 14.001)b (4.000 | 14.001)b (3.000 | 14.001)b (2.000 | 15.002)b (1.000 | 15.002);;;; Solution Found
+; States evaluated: 931
+; Cost: 15.002
+; Time 0.77
+0.002: (hours_of_the_day)  [15.000]
+0.003: (out_of_operating_hours_all_off_lightsreduced)  [4.000]
+0.003: (battery_charge_low_price)  [2.000]
+2.004: (battery_charge_low_price)  [2.000]
+4.004: (out_of_operating_hours_all_off_lightsreduced)  [4.000]
+4.005: (battery_charge_low_price)  [2.000]
+6.006: (battery_charge_low_price)  [2.000]
+8.091: (ordinary_lights_highprice_notoccupied_highnaturallight)  [2.000]
+8.091: (highprice_uncontrollable_loads_controllable_independent_loads)  [2.000]
+8.091: (battery_discharge_highprice)  [2.000]
+8.091: (hvac_highprice_notoccupied_intemprange)  [2.000]
+10.092: (ordinary_lights_highprice_occupied_highnaturallight)  [2.000]
+10.092: (hvac_highprice_occupied_intemprange)  [2.000]
+10.092: (battery_discharge_highprice)  [2.000]
+10.092: (highprice_uncontrollable_loads_controllable_independent_loads)  [2.000]
+13.001: (battery_charge_low_price)  [2.000]
+13.001: (ordinary_lights_lowprice_occupied_highnaturallight)  [2.000]
+13.001: (hvac_lowprice_occupied_intemprange)  [2.000]
+13.001: (lowprice_uncontrollable_loads_controllable_independent_loads)  [2.000]

@@ -33,8 +33,11 @@ This project requires the following software to be installed on your machine:
 •	The PDDL temporal planner POPF-TIF from https://github.com/popftif/popf-tif
 
 Running the project is straightforward. Simply navigate to the "Code" folder and run the "ProblemFile_Generation.py" file using the following command:
+                         
+```sh
+ python3 ProblemFile_Generation.py
+```
 
-python3 ProblemFile_Generation.py
 
 This project is fully automated, which means that upon executing the "ProblemFile_Generation.py" file, the script will take required inputs such as occupancy, day-ahead prices, and weather conditions, generate the problem file, and then run this problem file and domain file on the POPF planner. Finally, it will return the day-ahead plan.
 

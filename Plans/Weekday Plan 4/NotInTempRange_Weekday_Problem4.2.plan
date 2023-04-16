@@ -1,0 +1,18 @@
+;;!domain: schedule
+;;!problem: scheduling2
+
+13.90100: (isend) [10.10100]
+14.00100: (ordinary_lights_nominalprice_occupied_lownaturallight) [2.00000]
+14.00100: (nominalprice_uncontrollable_loads_controllable_independent_loads) [2.00000]
+14.00100: (battery_discharge_nominalprice) [2.00000]
+14.00100: (hvac_nominalprice_occupied_notintemprange) [2.00000]
+17.00100: (ordinary_lights_highprice_occupied_lownaturallight) [2.00000]
+17.00100: (highprice_uncontrollable_loads_controllable_independent_loads) [2.00000]
+17.00100: (battery_discharge_highprice) [2.00000]
+17.00100: (hvac_highprice_occupied_intemprange) [2.00000]
+19.00200: (battery_discharge_highprice) [2.00000]
+20.00100: (out_of_operating_hours_all_off_lightsreduced) [4.00000]
+
+; Makespan: 24.002000000000002
+; Metric: 24.002
+; States evaluated: 1789

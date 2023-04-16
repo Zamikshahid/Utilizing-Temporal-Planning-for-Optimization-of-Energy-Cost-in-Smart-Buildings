@@ -1,0 +1,32 @@
+;;!domain: schedule
+;;!problem: Weekend_scheduling
+
+0.00000: (out_of_operating_hours) [2.00000]
+1.00100: (battery_charge_low_price) [1.00000]
+2.00100: (out_of_operating_hours) [2.00000]
+2.00200: (battery_charge_low_price) [1.00000]
+3.00300: (battery_charge_low_price) [1.00000]
+4.00200: (out_of_operating_hours) [2.00000]
+4.00400: (battery_charge_low_price) [1.00000]
+5.00500: (battery_charge_low_price) [1.00000]
+6.00300: (out_of_operating_hours) [2.00000]
+6.00600: (battery_charge_low_price) [1.00000]
+7.00700: (battery_charge_low_price) [1.00000]
+8.00400: (out_of_operating_hours) [2.00000]
+10.00500: (out_of_operating_hours) [2.00000]
+12.00600: (out_of_operating_hours) [2.00000]
+14.00700: (out_of_operating_hours) [2.00000]
+16.00100: (battery_discharge_highprice) [1.00000]
+16.00800: (out_of_operating_hours) [2.00000]
+17.00200: (battery_discharge_highprice) [1.00000]
+18.00300: (battery_discharge_highprice) [1.00000]
+18.00900: (out_of_operating_hours) [2.00000]
+19.00400: (battery_discharge_highprice) [1.00000]
+20.00500: (battery_discharge_highprice) [1.00000]
+20.01000: (out_of_operating_hours) [2.00000]
+21.00600: (battery_discharge_highprice) [1.00000]
+22.01100: (out_of_operating_hours) [2.00000]
+
+; Makespan: 24.011
+; Metric: 24.011
+; States evaluated: 15307
